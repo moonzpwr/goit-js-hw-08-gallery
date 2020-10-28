@@ -164,17 +164,15 @@ body {
   outline: none;
 }
 
+.back:focus,
+.forward:focus {
+  outline: none;
+}
+
 .back {
   left: 1%;
 }
 
 .forward {
   right: 1%;
-}
-/*
-  This will hide the focus indicator if the element receives focus via the mouse,
-  but it will still show up on keyboard focus.
-*/
-.js-focus-visible :focus:not(.focus-visible) {
-  outline: none;
 }
